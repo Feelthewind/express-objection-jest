@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "max-length": 0,
+    "quotes": 0,
+    "linebreak-style": 0,
+    "comma-dangle": 0,
+    "space-before-function-paren": 0,
+    "func-names": 0,
+    "arrow-parens": 0,
+    "arrow-body-style": 0
+  },
+  "plugins": ["import"]
+}
